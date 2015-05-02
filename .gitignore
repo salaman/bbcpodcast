@@ -1,0 +1,17 @@
+/bootstrap/compiled.php
+/vendor
+composer.phar
+composer.lock
+.env.local.php
+.env.php
+.DS_Store
+Thumbs.db
+/shared
+/.idea
+_ide_helper.php
+/app/config/prod
+/app/config/local
+/app/start/local.php
+/app/start/prod.php
+/config
+Capfile
