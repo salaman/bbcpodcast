@@ -1,0 +1,20 @@
+[db]
+url = mysql://user:password@localhost/dbname
+
+[celery]
+broker = redis://localhost:6379/0
+backend = redis://localhost:6379/0
+
+[app]
+media_storage = media/{programme}/{episode}/{mediator}.{extension}
+ffmpeg_path = /usr/local/bin/ffmpeg
+rtmpdump_path = /usr/local/bin/rtmpdump
+
+[swift]
+auth_url =
+username =
+password = 
+tenant_name =
+container = 
+public_url =
+region_name =
